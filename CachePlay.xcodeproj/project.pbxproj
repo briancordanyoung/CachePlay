@@ -11,6 +11,7 @@
 		D36B02FA201E5A1700E4B96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36B02F9201E5A1700E4B96C /* Assets.xcassets */; };
 		D36B02FD201E5A1700E4B96C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36B02FB201E5A1700E4B96C /* MainMenu.xib */; };
 		D36B0309201E5A1700E4B96C /* CachePlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B0308201E5A1700E4B96C /* CachePlayTests.swift */; };
+		D36B0314201E5A3400E4B96C /* KeyedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B0313201E5A3400E4B96C /* KeyedCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		D36B0304201E5A1700E4B96C /* CachePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CachePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36B0308201E5A1700E4B96C /* CachePlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachePlayTests.swift; sourceTree = "<group>"; };
 		D36B030A201E5A1700E4B96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36B0313201E5A3400E4B96C /* KeyedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				D36B02FB201E5A1700E4B96C /* MainMenu.xib */,
 				D36B02FE201E5A1700E4B96C /* Info.plist */,
 				D36B02FF201E5A1700E4B96C /* CachePlay.entitlements */,
+				D36B0313201E5A3400E4B96C /* KeyedCache.swift */,
 			);
 			path = CachePlay;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36B02F8201E5A1700E4B96C /* AppDelegate.swift in Sources */,
+				D36B0314201E5A3400E4B96C /* KeyedCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
